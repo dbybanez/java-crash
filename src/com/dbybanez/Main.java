@@ -14,7 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Mortgage Calculator");
         System.out.print("Enter Principal: ");
-        long principal = Long.parseLong(scanner.nextLine().trim());
+        long principal = Long.parseLong(scanner.nextLine().trim());    
 
         System.out.print("Enter Annual Interest Rate: ");
         double annualInterestRate = Double.parseDouble(scanner.nextLine().trim()) / PERCENT / MONTHS_IN_A_YEAR;
